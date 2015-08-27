@@ -1,9 +1,31 @@
 class Result
-  def response(name, emotion)
-    if emotion == "panic" 
-      return "Don't worry!"
-    else
-      return "Me too!"
+  def response(experience, technique, body_part)
+    if experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+    
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    elsif experience == ""&&technique == ""&&body_part == ""
+      
+    else experience == ""&&technique == ""&&body_part == ""
+      
     end
     end 
 end
