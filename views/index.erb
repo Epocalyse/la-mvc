@@ -1,30 +1,35 @@
  <!doctype HTML>
 <html>
-  <head>  <title> Squacoon Sighting Report Form </title>
+  <head>  <title> Self Defense </title>
   <link rel = "stylesheet" type = "text/css"  href= "css/style.css">
-  
+ Defend yourself!
   </head>
-  
+
   <body>
-  <h2>  Squacoon Sighting Report Form </h2>
-  <form method = "post">
-    <label for "name"> Name </label> <input type = "text" name = "name">
-   <br>
-    <label for "contact"> Contact </label>
-    <input type = "email" name = "contact">
-    <br>
-    <label for "date"> Date </label> <br> <input type = "date" name = "date">
-    <br>
-    <label for "emotion"> Emotional Response </label><br>
-    <select name = "emotion">
-      <option class = "label" value = "panic"> Panic </option>
-      <option class = "label" value = "cute" > Awww </option>
-      <option class = "label"i value = "Noble"> Awed Respect </otpion>
-    </select>
-  <br>
-    <input type = "submit" value = "Submit">
-    
-  </form>
-  <img width = "250" height = "180" src = "http://bekat.yolasite.com/resources/squacoon.JPG.opt378x275o0,0s378x275.JPG"
-  > </body>
+  <h2>   Self Defense Form </h2>
+  <form method = "post" action="/respond">
+    <ul>
+      <li> <label> What is your experience level at fighting? </label> </li>
+<ul>
+  <li> <input type="radio" name="level" value="beginner">Beginner<br> </li>
+  <li> <input type="radio" name="level" value="advanced">Advanced </li>
+      </ul>
+  <li> <label> What technique are you looking to learn? </label> </li>
+      <ul>
+        <li> <input type="radio" name="technique" value="striking">Striking </li>
+        <li> <input type="radio" name="technique" value="grappling">Grappling </li>
+      </ul>
+      <li> <label> What body part do you want affect? </label> </li>
+      <ul>
+        <li> <input type="radio" name="body-part" value="head">Head </li>
+        <li> <input type="radio" name="body-part" value="mid_section">Mid Section </li>
+        <li> <input type="radio" name="body-part" value="legs">Legs </li>
+      </ul>
+    </ul>
+<input type="submit">
+
+    </form>
+
+
+  </body>
 </html>
