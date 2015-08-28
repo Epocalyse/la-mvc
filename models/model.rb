@@ -2,6 +2,9 @@ class Result
   def response(level, technique, body_part)
     if level == "advanced"&&technique == "grappling"&&body_part == "head"
       return "AGH.jpg"
+      return "Elbow strike to face"
+      return "You have chosen Advanced, grappling and head."
+      return "Desc."
     elsif level == "beginner"&&technique == "striking"&&body_part == "head"
       return "BSH.jpg"
     elsif level == "advanced"&&technique == "striking"&&body_part == "head"
