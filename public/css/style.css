@@ -1,10 +1,13 @@
 body{
   font-family: 'sans-serif';
+  background-color: #87A8B9;
 }
 
 h2{ 
   font: strong;
   text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  font-size:50px;
 }
 
 form{
@@ -13,16 +16,26 @@ form{
   margin-left: 33%;
   margin-right: 33%;
   margin-bottom: 5%;
+  background-color:#FFFFFF;
 }
 
 form{
-  
-  border: 1px solid;
-  border-radius: 5px;
+  border: 5px solid;
+  border-radius: 7px;
 }
 
 label, input, option{
   margin-top: 2%;
   margin-bottom: 2%;
-  
+}
+
+li{
+  list-style-type: none;
+  font-family: 'Coda', cursive;
+}
+
+.logo{
+  position:fixed;
+  bottom: 2%;
+  left: 1%;
 }

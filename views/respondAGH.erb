@@ -1,13 +1,17 @@
 <!doctype HTML>
 <html>
   <head> 
-    <title> Insert Attack here </title> 
+    <title> Attack </title> 
     <link rel="stylesheet" type="text/css" href="css/respondstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <h2>Learn to defend yourself</h2>
     <h2> <%=@title%> </h2>
     <h4> <%=@chosen%> </h4>
-    <img src = "images/<%=@image%>">
+    <div class="fight"><img src = "images/<%=@image%>"></div>
     <div class="description"><p><%=@instructions%></p></div>
     <button onclick="goBack()">Go Back</button>
     <script>
@@ -15,5 +19,6 @@
     window.history.back();
     }
     </script>
+    <div class="logo"><img src="images/the-flatiron-school-logo-sm-black.png"></div>
   </body>
 </html>

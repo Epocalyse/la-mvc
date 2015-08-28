@@ -1,4 +1,39 @@
-img{
-  margin-left: 31%;
-  margin-right: 33%;
+.fight{
+  display:block;
+  border-radius: 50%;
+  overflow: hidden;
+  padding:5px 4px;
+  margin-left:33%;
+  margin-right:35%;
+  border-width:7px;
+  border-color:black;
+  border-style: solid;
+}
+
+.logo{
+  bottom: 2%;
+  left: 1%;
+}
+
+h2{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 350%;
+  position:absolute;
+  left:30%;
+  transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+button{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 8%;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
+body{
+  background-color: #87A8B9;
 }
